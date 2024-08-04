@@ -81,7 +81,7 @@ export const skills: Skill[] = [
   },
   {
     title: "Zustand",
-    icon: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngaaa.com%2Fdetail%2F2507875&psig=AOvVaw3AffB18XK0sgmZyOquFoYU&ust=1722762374313000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJiE-I282IcDFQAAAAAdAAAAABAb"
+    icon: "static/doodles/hero/zustand.svg"
   }
 ];
 
