@@ -90,12 +90,12 @@ export const testimonials: Testimonial[] = [
   {
     service: "Front End Development",
     explanation:
-      "My work stands out due to its attention to detail, user-centric design, and seamless functionality, resonating with users' needs."
+      "My work stands out due to its attention to detail, user-centric design, seamless functionality, matching with users' needs."
   },
   {
     service: "Back End Development",
     explanation:
-      "I deliver robust and scalable server-side solutions, ensuring seamless integration and optimal performance for all applications."
+      "I deliver robust and scalable server-side solutions, ensuring seamless integration and optimal performance for every application."
   },
   {
     service: "Mobile App Development",
