@@ -618,7 +618,7 @@ class Projects extends Component {
                     "git+https://github.com/miteshtagadiya/package-boilerplate.git",
                 },
                 keywords: ["boilerplate", "code", "for", "package"],
-                author: "Mitesh Tagadiya",
+                author: "Mateen",
                 license: "MIT",
                 bugs: {
                   url:

@@ -135,7 +135,7 @@ function Footer() {
               href="mailto:miteshtagadiya@gmail.com"
               className="text-fun-gray-light font-medium"
             >
-              Mitesh Tagadiya
+              Mateen
             </a>
             . All rights reserved.
           </div> */}

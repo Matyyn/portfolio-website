@@ -46,7 +46,7 @@ class ProfileLinks extends Component {
       <div>
         <br />
         <label style={{ fontSize: 42, marginTop: 50 }}>
-          <Typist cursor={{ show: false }}>Mitesh Tagadiya</Typist>
+          <Typist cursor={{ show: false }}>Mateen</Typist>
         </label>
         <br />
         <label style={{ fontSize: 18, marginTop: 50 }}>

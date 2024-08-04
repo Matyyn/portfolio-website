@@ -47,7 +47,7 @@ const Index = (props) => (
         >
           <label>
             Designed and Developed by
-            <span style={{ fontWeight: "bold" }}> Mitesh Tagadiya</span>
+            <span style={{ fontWeight: "bold" }}> Mateen</span>
           </label>
         </div>
       </div>

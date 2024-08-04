@@ -1,8 +1,8 @@
 export default function Head({ currentPage = "Home" }) {
   const pageTitle = `${
     currentPage === "Home"
-      ? "Mitesh Tagadiya - Web Developer, Designer and Creator."
-      : `${currentPage} - Mitesh Tagadiya`
+      ? "Mateen - Web Developer, Designer and Creator."
+      : `${currentPage} - Mateen`
   }`;
   const desc =
     "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects and seamless user experiences.";
@@ -13,7 +13,7 @@ export default function Head({ currentPage = "Home" }) {
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta
         name="keywords"
-        content="Mitesh Tagadiya, mitesh tagadiya, freelancers, react developer, reactjs freelancer, nextjs"
+        content="Mateen, Mateen, freelancers, react developer, reactjs freelancer, nextjs"
       />
       <link rel="icon" href={`${process.env.NEXT_PUBLIC_BASE_URL}static/favicon/favicon.ico`} />
       <link

@@ -1,5 +1,5 @@
 
-## Mitesh Tagadiya
+## Mateen
 
 Portfolio app created by ReactJs
 

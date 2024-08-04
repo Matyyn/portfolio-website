@@ -20,7 +20,7 @@ const Profile = () => {
               height: 230,
               width: 230,
             }}
-            alt="Mitesh Tagadiya"
+            alt="Mateen"
           />
         </div>
       </div>

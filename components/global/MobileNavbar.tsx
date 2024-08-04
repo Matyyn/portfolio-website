@@ -37,7 +37,7 @@ export default function MobileNavbar() {
           <Link href="/">
             <span className="font-black text-xl flex items-center">
               <img
-                alt={"Mitesh Tagadiya"}
+                alt={"Mateen"}
                 className="mr-3"
                 src={`static/logos/logo_no_text.png`}
                 width="60"
