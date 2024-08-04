@@ -2,14 +2,14 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import SectionTitle from "../global/SectionTitle";
-// import { testimonials } from "@/data/content/home";
+import { testimonials } from "@/data/content/home";
 
 function Testimonials() {
   return (
     <div className="flex flex-col text-left max-w-md md:max-w-full w-full m-auto">
-      {/* <SectionTitle title="Why people love my work!" />
+      <SectionTitle title="Why people love my work!" />
       <div className="max-w-5xl m-auto md:max-h-[200px] grid grid-cols-1 gap-10 md:gap-10 md:grid-cols-3 items-start">
-        {/* {testimonials.map((item, index) => {
+        {testimonials.map((item, index) => {
           return (
             <div
               key={index}
@@ -20,14 +20,17 @@ function Testimonials() {
                   <img
                     alt="yay"
                     className="sqD top-[-50px] left-0 bottom-auto right-auto md:bottom-[-50px] md:top-auto md:right-[-25px] md:left-auto w-20 z-[-100]"
-                    src={`${process.env.NEXT_PUBLIC_BASE_URL}static/doodles/testimonials/yay.svg`}
+                    src={`static/doodles/testimonials/yay.svg`}
                   />
                 </>
               )}
-              <p className="text-base italic relative testimonialQuote">
-                "{item.quote}"
+              <h2>
+                {item.service}
+              </h2>
+              <p className="text-base relative testimonialQuote">
+              {item.explanation}
               </p>
-              {item.job && (
+              {/* {item.job && (
                 <p className="mt-4 text-xs text-fun-gray">
                   <b className="text-fun-pink font-monospace">{item.name}</b> -{" "}
                   {item.job}
@@ -39,11 +42,11 @@ function Testimonials() {
                   className="sqD top-[-30px] right-[-15px] w-11"
                   src={`${process.env.NEXT_PUBLIC_BASE_URL}static/doodles/testimonials/squiggle2.svg`}
                 />
-              )}
+              )} */}
             </div>
           );
         })} 
-      </div> */}
+      </div>
     </div>
   );
 }

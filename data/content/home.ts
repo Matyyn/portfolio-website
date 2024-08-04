@@ -4,7 +4,8 @@ type Skill = {
   style?: object;
 };
 type Testimonial = {
-  quote: string;
+  explanation: string;
+  service: string;
   name?: string;
   job?: string;
 };
@@ -85,3 +86,20 @@ export const skills: Skill[] = [
   }
 ];
 
+export const testimonials: Testimonial[] = [
+  {
+    service: "Front End Development",
+    explanation:
+      "My work stands out due to its attention to detail, user-centric design, and seamless functionality, resonating with users' needs."
+  },
+  {
+    service: "Back End Development",
+    explanation:
+      "I deliver robust and scalable server-side solutions, ensuring seamless integration and optimal performance for all applications."
+  },
+  {
+    service: "Mobile App Development",
+    explanation:
+      "Creating intuitive and engaging mobile experiences, I focus on performance, usability, and cross-platform compatibility for users."
+  }
+];
