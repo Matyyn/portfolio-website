@@ -120,7 +120,7 @@ function Footer() {
               <span>
                 <Image
                   alt="tailwindcss-plain"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+                  src="https://firebasestorage.googleapis.com/v0/b/mind-care-b5645.appspot.com/o/portfolio%2Ftailwind.png?alt=media&token=12bf14dd-771e-4564-adc6-0c6ad3d7a6f5"
                   width="26"
                   height={26}
                   title="TailwindCSS"
@@ -129,16 +129,7 @@ function Footer() {
               </span>
             </div>
           </div>
-          {/* <div className="mt-2 text-xs ">
-            Made by{" "}
-            <a
-              href="mailto:miteshtagadiya@gmail.com"
-              className="text-fun-gray-light font-medium"
-            >
-              Mateen
-            </a>
-            . All rights reserved.
-          </div> */}
+     
         </div>
       </div>
     </footer>
