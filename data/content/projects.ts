@@ -32,7 +32,7 @@ const projects = [
     id: 3,
     title: "Azeem Travels",
     desc: "Explore the beauty and culture of the United Arab Emirates with our comprehensive tourism guide. Discover the top attractions, landmarks, and activities in Dubai, Abu Dhabi, and other Emirates.",
-    img: `static/projects/macwin.jpg`,
+    img: `https://firebasestorage.googleapis.com/v0/b/mind-care-b5645.appspot.com/o/portfolio%2FEducation.png?alt=media&token=d816927b-78f0-4cf2-be32-b9088ac78313`,
     link: "https://github.com/faaiz99/azeem-travels",
     tags: ["React", "Material UI", "MongoDB", "Node", "Express","Cloudinary"]
   },
@@ -40,15 +40,15 @@ const projects = [
     id: 4,
     title: "News Website",
     desc: "A website that provides news and information on various topics.",
-    img: `static/projects/newnex.jpg`,
+    img: `https://firebasestorage.googleapis.com/v0/b/mind-care-b5645.appspot.com/o/portfolio%2FEducation.png?alt=media&token=d816927b-78f0-4cf2-be32-b9088ac78313`,
     link: "https://github.com/Matyyn/News-Website",
     tags: ["Javascript", "HTML", "CSS"]
   },
   {
     id: 5,
     title: "Notes App",
-    desc: "A simple app for taking and managing notes.",
-    img: `static/projects/aiolymp.jpg`,
+    desc: "A simple web app for taking and managing notes daily.",
+    img: `https://firebasestorage.googleapis.com/v0/b/mind-care-b5645.appspot.com/o/portfolio%2FEducation.png?alt=media&token=d816927b-78f0-4cf2-be32-b9088ac78313`,
     link: "https://github.com/Matyyn/iNoteBook",
     tags: ["Javascript", "HTML", "CSS"]
   },

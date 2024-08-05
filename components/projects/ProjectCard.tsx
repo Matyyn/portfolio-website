@@ -33,7 +33,7 @@ function ProjectCard({ project }) {
             {project.link && (
               <a href={project.link} target="_blank" rel="noreferrer">
                 <Image
-                  src={`static/icons/external-link.svg`}
+                  src={`https://firebasestorage.googleapis.com/v0/b/mind-care-b5645.appspot.com/o/portfolio%2Fexternal-link.png?alt=media&token=bac80dab-3535-43b5-9b5b-dc922a07e915`}
                   width={16}
                   height={16}
                   alt="Link Icon"
