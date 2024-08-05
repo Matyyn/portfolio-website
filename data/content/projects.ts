@@ -5,7 +5,7 @@ const projects = [
     id: 0,
     title: "MindCare Web App",
     desc: "MindCare is a mental health platform that provides online therapy and counseling services. It is a platform where you can connect with professional therapists and counselors to talk about your mental health issues and get help.",
-    img: `static/doodles/hero/Index.svg`,
+    img: `https://firebasestorage.googleapis.com/v0/b/mind-care-b5645.appspot.com/o/portfolio%2FIndex.png?alt=media&token=bd72573d-0714-4883-8974-67e6184c1023`,
     link: "https://github.com/Matyyn/Mind-Care-Front-End",
     tags: ["React", "CSS", "Redux", "Daily.co", "Node", "Express", "MongoDB", "Chakra UI"]
   },
@@ -13,7 +13,7 @@ const projects = [
     id: 1,
     title: "MindCare Mobile App",
     desc: "MindCare is a mental health platform that provides online therapy and counseling services. It is a platform where you can connect with professional therapists and counselors to talk about your mental health issues and get help.",
-    img: `static/doodles/hero/Index.svg`,
+    img: `https://firebasestorage.googleapis.com/v0/b/mind-care-b5645.appspot.com/o/portfolio%2FIndex.png?alt=media&token=bd72573d-0714-4883-8974-67e6184c1023`,
     link: "https://github.com/Matyyn/mindcare-mobile",
     tags: [
       "React Native",
@@ -24,7 +24,7 @@ const projects = [
     id: 2,
     title: "Education",
     desc: "A platform where students can take online quizzes to test their knowledge. Teachers can assign tests and assignments to students and the admin can manage both students and teachers.",
-    img: `static/doodles/hero/Education.svg`,
+    img: `https://firebasestorage.googleapis.com/v0/b/mind-care-b5645.appspot.com/o/portfolio%2FEducation.png?alt=media&token=d816927b-78f0-4cf2-be32-b9088ac78313`,
     link: "https://github.com/Matyyn/Education",
     tags: ["React", "CSS", "Material UI", "Tailwind CSS", "Headless UI"]
   },

@@ -13,7 +13,7 @@ function Navbar({ currentPage }) {
             <Image
               alt="Abdul Mateen"
               className="mr-2 transform hover:rotate-360 hover:scale-75 transition-transform duration-500"
-              src={`static/logos/logo_no_text.png`}
+              src={`https://firebasestorage.googleapis.com/v0/b/mind-care-b5645.appspot.com/o/portfolio%2Flogo_no_text.png?alt=media&token=6b0051aa-a494-49df-8774-c11790759e9c`}
               width="60"
               height={60}
             />

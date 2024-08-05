@@ -7,7 +7,7 @@ import { testimonials } from "@/data/content/home";
 function Testimonials() {
   return (
     <div className="flex flex-col text-left max-w-md md:max-w-full w-full m-auto">
-      <SectionTitle title="Expertise!" />
+      <SectionTitle title="My Expertise!" />
       <div className="max-w-5xl m-auto md:max-h-[200px] grid grid-cols-1 gap-10 md:gap-10 md:grid-cols-3 items-start">
         {testimonials.map((item, index) => {
           return (
@@ -47,7 +47,7 @@ function Testimonials() {
 
             <div
               key={index}
-              className="relative bg-gray-800 border border-gray-600 p-5 rounded-lg flex flex-col justify-between text-white transform transition-transform duration-300 hover:shadow-lg hover:scale-105"
+              className="relative bg-gray-600 border border-gray-600 p-5 rounded-lg flex flex-col justify-between text-white transform transition-transform duration-300 hover:shadow-lg hover:scale-105"
             >
               <h2 className="text-2xl font-bold text-center">{item.service}</h2>
               <p className="mt-2 text-center">{item.description}</p>
