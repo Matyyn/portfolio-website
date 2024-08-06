@@ -9,7 +9,8 @@ function Skills() {
       <h2 className="relative text-3xl w-full text-center md:text-left font-bold md:max-w-lg mb-10 md:mr-10 md:mb-0 md:w-max mr-0 ">
         {/* I got the experience. */}
         <br />
-        Here are my skills
+        I got the experience.
+        Here is my toolbelt for success.
         <img
           alt="laptop"
           className="sqD bottom-[-80px] left-[-50px] lg:bottom-[-50px] lg:left-[-35px] z-[-10]"
