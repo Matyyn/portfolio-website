@@ -2,14 +2,14 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import SectionTitle from "../global/SectionTitle";
-import { testimonials } from "@/data/content/home";
+import { expertise } from "@/data/content/home";
 
 function Testimonials() {
   return (
     <div className="flex flex-col text-left max-w-md md:max-w-full w-full m-auto">
       <SectionTitle title="My Expertise!" />
       <div className="max-w-5xl m-auto md:max-h-[200px] grid grid-cols-1 gap-10 md:gap-10 md:grid-cols-3 items-start">
-        {testimonials.map((item, index) => {
+        {expertise.map((item, index) => {
           return (
             // <div
             //   key={index}

@@ -3,7 +3,7 @@ type Skill = {
   icon: string;
   style?: object;
 };
-type Testimonial = {
+type Expertise = {
   description: string;
   service: string;
   name?: string;
@@ -86,7 +86,7 @@ export const skills: Skill[] = [
   }
 ];
 
-export const testimonials: Testimonial[] = [
+export const expertise: Expertise[] = [
   {
     service: "Front End Development",
     description:

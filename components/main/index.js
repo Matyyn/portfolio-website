@@ -2,7 +2,7 @@ import React from "react";
 import Projects from "@/components/home/Projects";
 import Skills from "@/components/home/Skills";
 import About from "@/components/home/About";
-import Testimonials from "@/components/home/Testimonials";
+import Expertise from "@/components/home/Expertise";
 
 function Main() {
   return (
@@ -10,7 +10,7 @@ function Main() {
       <About/>
       <Projects />
       <Skills />
-      <Testimonials />
+      <Expertise />
     </div>
   );
 }
