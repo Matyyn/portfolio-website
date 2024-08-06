@@ -13,22 +13,22 @@ function Skills() {
         Here is my toolbelt for success.
         <img
           alt="laptop"
-          className="sqD bottom-[-80px] left-[-50px] lg:bottom-[-50px] lg:left-[-35px] z-[-10]"
+          className="sqD bottom-[-80px] left-[-50px] lg:bottom-[-50px] lg:left-[-35px] z-[-10] animate-bounce"
           src={`static/doodles/skills/laptop.svg`}
         />
         <img
           alt="coding"
-          className="sqD hidden md:block top-[140px] right-0 lg:top-[105px]"
+          className="sqD hidden md:block top-[140px] right-0 lg:top-[105px] animate-bounce"
           src={`static/doodles/skills/coding.svg`}
         />
         <img
           alt="youtube"
-          className="sqD hidden md:block top-[200px] right-[50px] lg:top-[170px] lg:right-[50px]"
+          className="sqD hidden md:block top-[200px] right-[50px] lg:top-[170px] lg:right-[50px] animate-bounce"
           src={`static/doodles/skills/youtube.svg`}
         />
         <img
           alt="fillStar"
-          className="sqD top-[-15px] right-[-15px]"
+          className="sqD top-[-15px] right-[-15px] animate-bounce"
           src={`static/doodles/skills/fillStar.svg`}
         />
       </h2>

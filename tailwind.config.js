@@ -20,7 +20,7 @@ module.exports = {
       green: colors.green,
       orange: colors.orange,
       purple: colors.purple,
-    pink: colors.pink,
+      pink: colors.pink,
     },
     extend: {
       colors: {
@@ -40,14 +40,17 @@ module.exports = {
       rotate: {
         '360': '360deg'
       },
-      keyframes: {
-        fadeIn: {
-          '0%': { opacity: '0' },
-          '100%': { opacity: '1' },
-        }
-      },
-      animation: {
-        'fadeInAndBounce': 'fadeIn 3s ease-out',
+      extend: {
+        keyframes: {
+          bounce: {
+            '0%, 20%, 50%, 80%, 100%': { transform: 'translateY(0)' },
+            '40%': { transform: 'translateY(-30px)' },
+            '60%': { transform: 'translateY(-15px)' },
+          },
+        },
+        animation: {
+          bounce: 'bounce 4s infinite',
+        },
       },
       willChange: {
         'projectCard': 'border-color, opacity, transform',
