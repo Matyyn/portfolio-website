@@ -47,7 +47,7 @@ function Testimonials() {
 
             <div
               key={index}
-              className="relative bg-gray-600 border border-gray-600 p-5 rounded-lg flex flex-col justify-between text-white transform transition-transform duration-300 hover:shadow-lg hover:scale-105"
+              className="relative bg-[#7a88a8] border border-[#7a88a8] p-5 rounded-lg flex flex-col justify-between text-white transform transition-transform duration-300 hover:shadow-lg hover:scale-105"
             >
               <h2 className="text-2xl font-bold text-center">{item.service}</h2>
               <p className="mt-2 text-center">{item.description}</p>
