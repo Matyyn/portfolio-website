@@ -17,7 +17,7 @@ function CTA() {
           Interested in Working Together?
         </h2>
         <a
-          href="mailto:miteshtagadiya@gmail.com"
+          href="mailto:matyyn.004@gmail.com"
           className="cursor-pointer font-bold whitespace-nowrap 
         mt-6 px-8 py-3 text-white border-2 rounded-full border-white bg-bg hover:bg-fun-pink hover:border-fun-pink transition-colors"
         >
@@ -29,7 +29,7 @@ function CTA() {
         alt="fancyLines"
         className="sqD min-w-[800px] bottom-[-100px] left-1/2 sm:bottom-[-150px] -translate-x-1/2 object-cover sm:min-w-[1100px]"
         style={{ zIndex: "-10" }}
-        src={`${process.env.NEXT_PUBLIC_BASE_URL}static/doodles/hero/fancyLines.svg`}
+        src={`static/doodles/hero/fancyLines.svg`}
       />
     </div>
   );
