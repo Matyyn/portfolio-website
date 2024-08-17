@@ -17,18 +17,14 @@ export const metadata = {
   description:
     "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects and seamless user experiences.",
   alternates: {
-    canonical: "https://miteshtagadiya.js.org/"
   },
-  metadataBase: new URL("https://miteshtagadiya.js.org"),
   openGraph: {
     title: "Mateen - Web Developer, Designer and Creator.",
     description:
       "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects and seamless user experiences.",
-    url: "https://miteshtagadiya.js.org",
     siteName: "Mateen",
     images: [
       {
-        url: "https://miteshtagadiya.js.org/static/misc/og.png",
         alt: "Mateen"
       }
     ],
@@ -72,9 +68,7 @@ export const metadata = {
     title: "Mateen - Web Developer, Designer and Creator.",
     description:
       "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects and seamless user experiences.",
-    url: "https://miteshtagadiya.js.org",
     images: {
-      url: "https://miteshtagadiya.js.org/static/misc/og.png",
       alt: "Mateen"
     }
   }

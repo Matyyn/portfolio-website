@@ -73,7 +73,7 @@ class ProfileLinks extends Component {
 
           <label style={{ fontSize: 28, marginLeft: 10, marginRight: 10 }}>
             <a
-              href="https://cssbattle.dev/player/miteshtagadiya"
+       
               style={{ textDecoration: "none", color: "#7ef0ff" }}
               target="_blank"
               aria-label="CSSBattle"
